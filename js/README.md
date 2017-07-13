@@ -1,6 +1,6 @@
 # sqs-cli
 
-### Command Line Interface to Amazon Simple Queue Service
+### JavaScript Command Line Interface to Amazon Simple Queue Service
 
 Make sure to export the following environment variables.
 
@@ -14,21 +14,8 @@ Make sure to export the following environment variables.
 For JavaScript peeps,
 
 ```
-$ cd js
 $ npm i
 $ node purge.js
 $ node consumer.js
 $ node producer.js <msg1> <msg2> ...
-```
-
-For Python peeps,
-
-```
-$ cd py
-$ virtualenv venv
-$ pip install -r pip.req
-$ ./echo.py
-$ ./purge.py
-$ ./consumer.py
-$ ./producer.py <msg1> <msg2> ...
 ```

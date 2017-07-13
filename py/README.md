@@ -1,6 +1,6 @@
 # sqs-cli
 
-### Command Line Interface to Amazon Simple Queue Service
+### Python Command Line Interface to Amazon Simple Queue Service
 
 Make sure to export the following environment variables.
 
@@ -10,16 +10,6 @@ Make sure to export the following environment variables.
 - ```SQS_CONSUME_QUEUE```
 - ```SQS_PRODUCE_QUEUE```
 - ```SQS_PURGE_QUEUE```
-
-For JavaScript peeps,
-
-```
-$ cd js
-$ npm i
-$ node purge.js
-$ node consumer.js
-$ node producer.js <msg1> <msg2> ...
-```
 
 For Python peeps,
 
