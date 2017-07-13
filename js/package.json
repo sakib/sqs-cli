@@ -1,0 +1,35 @@
+{
+  "name": "sqs",
+  "version": "1.0.0",
+  "description": "sqs cli js",
+  "main": "consumer.js",
+  "dependencies": {
+    "aws-sdk": "^2.84.0",
+    "sqs-consumer": "^3.6.1",
+    "sqs-producer": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "consume": "node consumer.js",
+    "produce": "node producer.js",
+    "purge": "node purge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakib/sqs-cli.git"
+  },
+  "keywords": [
+    "sqs",
+    "aws",
+    "js",
+    "consumer",
+    "producer",
+    "purge"
+  ],
+  "author": "Sakib Jalal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakib/sqs-cli/issues"
+  },
+  "homepage": "https://github.com/sakib/sqs-cli#readme"
+}
