@@ -1,6 +1,11 @@
 # sqs-cli
 
-### JavaScript Command Line Interface to Amazon Simple Queue Service
+These tools constitute a JavaScript Command Line Interface to Amazon SQS.
+
+See the README.md in the root directory of this repository for info on
+semantics, links to further info on SQS, etc.
+
+## Usage
 
 Make sure to export the following environment variables.
 
