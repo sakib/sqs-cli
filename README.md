@@ -1,6 +1,6 @@
 # sqs-cli
 
-This is a command line interface to Amazon Simple Queue Service.
+This is a command line interface to Amazon Simple Queue Service, or [SQS](https://aws.amazon.com/sqs/).
 
 ## What Do?
 
@@ -19,8 +19,9 @@ and purging Q from time to time.
 
 ## Setup
 
-You're going to want at least one queue to mess around with. You can follow
-[this link](https://aws.amazon.com/sqs/) and read "Get Started" and "FAQ".
+You're going to want at least one queue to mess around with. Follow these links
+to [Get Started](https://aws.amazon.com/sqs/getting-started/)
+and read the [FAQ](https://aws.amazon.com/sqs/faqs/).
 
 The CLI requires that you export the following environment variables:
 
